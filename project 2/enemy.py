@@ -8,7 +8,6 @@ def manhattan(a, b):
     return abs(a[0]-b[0]) + abs(a[1]-b[1])
 
 class Enemy(arcade.Sprite):
-    """Grid-walker with BFS pathfinding + Pac-like roles."""
     def __init__(self, frames_normal, frames_fright, role="chaser"):
         super().__init__()
         self.frames_normal = frames_normal
