@@ -64,16 +64,9 @@ class HowToView(arcade.View):
         self.clear()
         arcade.draw_text("HOW TO PLAY", SCREEN_W/2, SCREEN_H*0.78, (190,250,255), 36, anchor_x="center")
         txt = [
-            "WASD - move",
-            "SPACE - dash (short burst, cooldown)",
-            "P - pause",
-            "Collect all pellets (.) and power orbs (o)",
-            "Power orb: you can eat ghosts for a while",
-            "Key (K) opens Door (D)",
-            "Teleports (T) move you across the map",
-            "Reach Goal (G) after collecting everything",
-            "",
-            "ENTER - back to menu"
+            'wasd - ходить',
+            'пробел - деш',
+            'все что надо знать'
         ]
         y = SCREEN_H*0.65
         for line in txt:
