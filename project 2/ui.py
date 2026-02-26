@@ -98,7 +98,7 @@ class GameView(arcade.View):
         self.invuln = 0.0
         self.tp_cd = 0.0
 
-        # Camera2D (Arcade 3.x)
+       
         self.cam = arcade.Camera2D()
         self.ui_cam = arcade.Camera2D()
 
