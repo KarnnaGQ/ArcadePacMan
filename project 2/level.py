@@ -74,7 +74,7 @@ class Level:
                     self.walls.append(self._spr(self.assets.wall, x, y))
                     continue
 
-                # walkable unless door
+                
                 if ch != "D":
                     self.walkable.add((c, rows-1-r))
 
