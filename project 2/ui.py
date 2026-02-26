@@ -130,7 +130,6 @@ class GameView(arcade.View):
         px = self.level.player.center_x
         py = self.level.player.center_y
 
-        # desired bottom-left of view
         tx = px - SCREEN_W / 2
         ty = py - SCREEN_H / 2
 
@@ -139,7 +138,6 @@ class GameView(arcade.View):
         tx = clamp(tx, 0, max_x)
         ty = clamp(ty, 0, max_y)
 
-        # Camera2D.position is the *center* of the camera
         target_cx = tx + SCREEN_W / 2
         target_cy = ty + SCREEN_H / 2
 
